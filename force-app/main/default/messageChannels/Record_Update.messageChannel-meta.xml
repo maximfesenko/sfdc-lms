@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Message Channel to manage Record&apos;s updates</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>Id of updated record</description>
+        <fieldName>recordId</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>The current data representing the record that changed</description>
+        <fieldName>recordData</fieldName>
+    </lightningMessageFields>
+    <masterLabel>Record Update</masterLabel>
+</LightningMessageChannel>
